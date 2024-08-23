@@ -1,0 +1,32 @@
+# main menu navigation
+banner_srcset:
+  enable: true
+
+article_copyright:
+  enable: true
+  content:
+    author: true
+    link: true
+    title: false
+    date: false
+    updated: false
+    license: true
+
+widgets:
+  - category
+  - tag
+  - tagcloud
+  - archive
+  - recent_posts
+
+social:
+  github: https://github.com/D-Sketon
+
+footer:
+  busuanzi: false
+
+pjax:
+  enable: true
+
+service_worker:
+  enable: false
