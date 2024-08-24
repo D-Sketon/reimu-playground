@@ -30,3 +30,5 @@ pjax:
 
 service_worker:
   enable: false
+
+reimu_cursor: false
