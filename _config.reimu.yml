@@ -1,6 +1,26 @@
 # main menu navigation
+menu:
+  home: /
+  archives: /archives
+  about: /about
+  friend: /friend
+
+banner: "/images/banner.webp" # themes/reimu/source/images/banner.webp
+# You can also write it in the form of the following url
+# banner: "https://example.com"
 banner_srcset:
   enable: true
+favicon: "/images/favicon.ico" # themes/reimu/source/images/favicon.ico
+# You can also write it in the form of the following url
+# favicon: "https://example.com"
+avatar: "avatar.webp" # source/_data/avatar/avatar.webp
+
+# Content
+excerpt_link: Read More
+
+# rss
+# need https://github.com/hexojs/hexo-generator-feed
+rss: atom.xml
 
 article_copyright:
   enable: true
@@ -12,23 +32,55 @@ article_copyright:
     updated: false
     license: true
 
+# Sidebar
+sidebar: left
 widgets:
-  - category
-  - tag
+  # - category
+  # - tag
   - tagcloud
-  - archive
-  - recent_posts
+  # - archive
+  #- recent_posts
 
 social:
   github: https://github.com/D-Sketon
 
 footer:
-  busuanzi: false
+  since: 2020 # 2020-current_year
+  powered: true
+  count: true
+  busuanzi: true
 
+# need https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus
+# use katex
+math:
+  enable: true
+  katex:
+    enable: true
+
+# need https://github.com/webappdevelp/hexo-filter-mermaid-diagrams
+mermaid: ## mermaid url https://github.com/knsv/mermaid
+  enable: true # default true
+
+preloader:
+  enable: true
+  text: 少女祈祷中...
+  # text: Loading...
+
+animation:
+  enable: true
+
+# Experimental, may have a lot of bugs, open with caution!
 pjax:
   enable: true
 
 service_worker:
   enable: false
 
-reimu_cursor: false
+live2d:
+  enable: false
+
+quicklink:
+  enable: false
+
+pace:
+  enable: false
