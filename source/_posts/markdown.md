@@ -1,8 +1,10 @@
+---
 title: Markdown Style test
 date: 2018-7-24 23:31:06
 tags:
   - Foo
   - Bar
+urlname: markdown-style-test
 ---
 
 This post is originated from [here](https://gist.github.com/apackeer/4159268) and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.

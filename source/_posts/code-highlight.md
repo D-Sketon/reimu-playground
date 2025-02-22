@@ -2,6 +2,7 @@
 title: Code Highlight Style test
 date: 2019-07-25 16:43:00
 tags:
+urlname: code-highlight
 ---
 
 Make sure all the code blocks highlighted correctly. All the code samples are come from the demo of https://highlightjs.org

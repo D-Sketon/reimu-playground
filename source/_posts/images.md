@@ -1,5 +1,7 @@
+---
 title: Images
 date: 2013-12-26 22:46:49
+urlname: images-test
 ---
 
 This is a image test post.

@@ -84,3 +84,9 @@ quicklink:
 
 pace:
   enable: false
+
+i18n:
+  enable: true
+  type: [page, post]
+  generator: [archive, category, tag, index]
+  languages: [zh-CN, en]
