@@ -508,6 +508,6 @@ $$
 
 ## Card
 
-{% postLinkCard "hexo-theme-reimu效果展示" auto %}
+{% postLinkCard "hexo-theme-reimu Content" auto %}
 
 {% externalLinkCard "Github" "https://github.com/D-Sketon/hexo-theme-reimu" "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png" %}
