@@ -35,11 +35,11 @@ article_copyright:
 # Sidebar
 sidebar: left
 widgets:
-  # - category
-  # - tag
+  - category
+  - tag
   - tagcloud
-  # - archive
-  #- recent_posts
+  - archive
+  - recent_posts
 
 social:
   github: https://github.com/D-Sketon
@@ -63,7 +63,6 @@ mermaid: ## mermaid url https://github.com/knsv/mermaid
 
 preloader:
   enable: true
-  text: 少女祈祷中...
   # text: Loading...
 
 animation:
